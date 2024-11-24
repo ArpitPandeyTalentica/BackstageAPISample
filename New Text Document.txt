@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: Combined OpenAPI Specification
+  version: 1.0.0
+  description: This is a combined API spec that references two separate OpenAPI files.
+paths:
+  # Include paths from the first file
+  $ref: './openapi.yaml'
+  
+  # Include paths from the second file
+  $ref: './openapi2.yaml'
