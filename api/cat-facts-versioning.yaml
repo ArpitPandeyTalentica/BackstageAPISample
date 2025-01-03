@@ -6,6 +6,8 @@ metadata:
   tags:
     - cat-facts
     - openapi
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: openapi
   lifecycle: production
